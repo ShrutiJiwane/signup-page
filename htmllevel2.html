@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>html level2 Assessment </title>
+    </head>
+    <body>
+        <h1>Course Sign Up Page</h1>
+        <p><b> Select the course you are intrested in?</b></p>
+            <select name="course" id="">
+                <option value="1">Webprenuership</option>
+                <option value="2">Front-end</option>
+                <option value="3">Back-end</option>
+                <option value="4">Full Stack</option>
+            </select>
+        <p><b> Personal details required: First Name, Last Name, Password, Email.</b></p>
+        <br>
+        <form>
+            <label for="firstname"> First Name</label>
+            <input type="text" id="firstname" placeholder="Enter first name" required>
+            
+            <label for="lastname"> Last Name</label>
+            <input type="text" id="lastname" placeholder="Enter last name" required>
+            <br>
+            <br>
+            <label for="email"> Email</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+            
+            <label for="password"> Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <br>
+            <p><b>Are you above the age of 18 ?</b></p>
+            <input type="radio" id="yes" name="age">
+            <label for="yes">Yes</label>
+            
+            <input type="radio" id="no" name="age">
+            <label for="no">No</label>
+            <br>
+            <p><b> Which payment option is available with you?</b></p>
+            <select name="payment" id="">
+                <option value="1">Credit Card</option>
+                <option value="2">Debit Card</option>
+                <option value="3">Pay Pal</option>
+                <option value="4">Other UPI payment</option>
+            </select>
+            <br><br>
+            <input type="submit" value="send">
+        
+        </form>
+    </body>
+</html>
